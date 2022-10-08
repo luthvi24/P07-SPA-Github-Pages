@@ -1,0 +1,115 @@
+body {
+    font-family: "Rockwell", "Arial Narrow", Arial, sans-serif;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: white;
+    text-shadow: white;
+}
+
+h1{
+    color: blue;
+    font-size: 30px;
+}
+
+h1:.p{
+    font-size: 20px;
+}
+
+img.tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4cm;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px gray;
+    padding: 5px;
+    background: white;
+    transition: 0.2s;
+    opacity: 93%;
+    width: 6cm;
+    height: 6cm;
+    object-fit: cover;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td, th{
+    border: 1px solid white;
+    padding: 9px;
+
+
+}
+
+td:first-child{
+    text-align: center;
+
+
+}
+
+.judul-tabel{
+    background-color: blue;
+    color: navajowhite;
+}
+
+.top1{
+    text-align: center;
+    color: white;
+}
+
+.tombol{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.tombol:hover{
+    background-color: red;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+td:hover{
+    background-color: yellow;
+}
+
+.sosmed {
+	position: fixed;
+	z-index:9;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+.isi-sosmed {
+	height: 50px;
+	width:20%;
+	margin-left: auto;
+	margin-right: auto;
+	padding:2px ;
+	color:#fff;
+	/* margin:5px auto; */
+	background: rgba(255,255,255,0.8);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	/* background: #504a4a; */
+	text-align: center;
+	/* display: inline-block; */
+}
+
+.isi-sosmed a img {
+	margin-top: 6px;
+	margin-right: 6px;
+	max-width: 40px;
+}
